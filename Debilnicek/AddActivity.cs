@@ -28,10 +28,12 @@ namespace Debilnicek
         {
             TextView textAddName = FindViewById<Android.Widget.TextView>(Resource.Id.editTextAddName);
             TextView textAddDate = FindViewById<Android.Widget.TextView>(Resource.Id.editTextDateItem);
+            TimePicker time = FindViewById<Android.Widget.TimePicker>(Resource.Id.timePickerActivitime);
             DateTime date;
+            
 
             bool parsed = DateTime.TryParse(textAddDate.Text, out date);
-
+            date = date.Date.AddHours(Convert.ToDouble(time.CurrentHour.ToString())).AddMinutes(Convert.ToDouble(time.CurrentMinute.ToString()));
             if (parsed)
             {
                 DBAccess.DBInterface db = new DBAccess.DBInterface();

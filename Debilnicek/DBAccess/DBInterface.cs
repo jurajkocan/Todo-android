@@ -53,9 +53,9 @@ namespace Debilnicek.DBAccess
         {
             List<DBModel.Item> items = new List<DBModel.Item>();
 
-            items = dbConn.Table<DBModel.Item>().ToList<DBModel.Item>();            
-
-            return items;                
+            items = dbConn.Table<DBModel.Item>().ToList<DBModel.Item>();
+            
+            return items.OrderByDescending(i => i.ItemDate).ToList();                
         }
 
         public DBModel.Item GetItem(long itemId)
@@ -64,6 +64,14 @@ namespace Debilnicek.DBAccess
             item = dbConn.Table<DBModel.Item>().FirstOrDefault(i => i.Id == itemId);
 
             return item;
+        }
+
+        public bool DeleteItem(long itemId)
+        {            
+            int resInt = dbConn.Delete(GetItem(itemId));
+            if (resInt > 0) 
+                return true;
+            return false;            
         }
     }
 }

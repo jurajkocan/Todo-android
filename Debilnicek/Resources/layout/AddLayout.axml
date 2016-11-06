@@ -3,6 +3,11 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <Button
+        android:text="OK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonNewItemConfirm" />
     <EditText
         android:inputType="textMultiLine"
         android:layout_width="match_parent"
@@ -15,9 +20,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/editTextDateItem"
         android:hint="15.01.2016" />
-    <Button
-        android:text="OK"
+    <TimePicker
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonNewItemConfirm" />
+        android:id="@+id/timePickerActivitime" />
 </LinearLayout>

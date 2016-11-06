@@ -61,6 +61,7 @@
     <Compile Include="CustomListItemAdapter.cs" />
     <Compile Include="DBAccess\DBInterface.cs" />
     <Compile Include="DBModel\Item.cs" />
+    <Compile Include="EditActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,6 +72,9 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\AddLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\EditLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

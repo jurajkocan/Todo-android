@@ -1,0 +1,11 @@
+D:\Skola\Android\Debilnicek\Debilnicek\obj\Release\android\assets\Debilnicek.dll
+D:\Skola\Android\Debilnicek\Debilnicek\obj\Release\android\assets\Java.Interop.dll
+D:\Skola\Android\Debilnicek\Debilnicek\obj\Release\android\assets\Mono.Android.dll
+D:\Skola\Android\Debilnicek\Debilnicek\obj\Release\android\assets\mscorlib.dll
+D:\Skola\Android\Debilnicek\Debilnicek\obj\Release\android\assets\System.Core.dll
+D:\Skola\Android\Debilnicek\Debilnicek\obj\Release\android\assets\System.dll
+D:\Skola\Android\Debilnicek\Debilnicek\obj\Release\android\assets\System.Xml.dll
+D:\Skola\Android\Debilnicek\Debilnicek\obj\Release\android\assets\SQLite-net.dll
+D:\Skola\Android\Debilnicek\Debilnicek\obj\Release\android\assets\SQLitePCL.raw.dll
+D:\Skola\Android\Debilnicek\Debilnicek\obj\Release\android\assets\System.Runtime.Serialization.dll
+D:\Skola\Android\Debilnicek\Debilnicek\obj\Release\android\assets\System.ServiceModel.Internals.dll
